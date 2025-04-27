@@ -13,7 +13,7 @@ Built from the ground up with:
 
 ## 🔧 Requirements
 
-- Python 3.12+
+- Python 3.13+
 - PyTorch 2.0+
 - torchvision
 - numpy
@@ -89,7 +89,7 @@ resnet/
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| **Epochs** | 30 | Total training iterations |
+| **Epochs** | 60 | Total training iterations |
 | **Batch Size** | 128 | Number of samples per gradient update |
 | **Optimizer** | SGD | Stochastic Gradient Descent |
 | **Weight Decay** | 0.0001 | L2 regularization strength |
@@ -99,24 +99,24 @@ resnet/
 
 | Epoch Range | Learning Rate | 
 |:-----------:|:-------------:|
-| 1-10 | **0.1** |
-| 11-20 | **0.001** |
-| 21-30 | **0.0001** |
+| 1-25 | **0.1** |
+| 25-40 | **0.001** |
+| 40-60 | **0.0001** |
 
 ### 🎯 Model Performance
 
 | Metric | Accuracy | Dataset |
 |:------:|:--------:|:-------:|
-| **Training** | ~91.4% | CIFAR-10 |
-| **Test** | ~88.5% | CIFAR-10 |
+| **Training** | ~95.4% | CIFAR-10 |
+| **Test** | ~90.1% | CIFAR-10 |
 
 
 ### 💪 Performance Comparison
 
 | Model | CIFAR-10 Test Accuracy | Parameters | Training Time |
 |:-----:|:----------------------:|:----------:|:-------------:|
-| ResNet20 (Ours) | 88.5% | ~0.27M | ~20 mins |
-| ResNet20 (Paper) | 91.25% | ~0.27M | N/A |
+| ResNet20 (Ours) | ~90.1% | ~0.27M | ~20 mins |
+| ResNet20 (Paper) | ~91.25% | ~0.27M | N/A |
 | ResNet56 | 93.03% | ~0.85M | N/A |
 | ResNet110 | 93.57% | ~1.7M | N/A |
 
