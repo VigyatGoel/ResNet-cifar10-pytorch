@@ -34,12 +34,13 @@ uv run src/main.py
 
 You can customize the training process and model hyperparameters using command-line arguments:
 
-*   `--epochs`: Number of training epochs (default: 10)
+*   `--epochs`: Number of training epochs (default: 30)
 *   `--batch-size`: Input batch size (default: 32)
-*   `--lr`: Learning rate (default: 3e-4)
+*   `--lr`: Learning rate (default: 0.1)
+    `--momentum`: Momentum for SGD (default: 0.9)
 *   `--weight-decay`: Weight decay (default: 1e-4)
 *   `--data-dir`: Directory for storing dataset (default: './data')
-*   `--save-path`: Path to save the trained model (default: 'vit_cifar10_state.pth')
+*   `--save-path`: Path to save the trained model (default: 'resnet20_cifar10.pth')
 *   `--num-workers`: Number of data loading workers (default: 2)
 *   `--device`: Device to use ('cuda', 'mps', 'cpu') (default: 'cuda')
 *   `--use-compile`: Use `torch.compile` for potential speedup (flag, default: False)
@@ -47,5 +48,5 @@ You can customize the training process and model hyperparameters using command-l
 **Example:**
 
 ```bash
-uv run src/main.py --epochs 20 --batch-size 64 --lr 1e-4 --device cuda --use-compile
+uv run src/main.py --epochs 20 --batch-size 64 --lr 0.001 --device cuda --use-compile
 ```
