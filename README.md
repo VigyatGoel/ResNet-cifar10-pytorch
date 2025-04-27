@@ -1,4 +1,4 @@
-# ResNet (Residual Network) from Scratch
+# 🧠 ResNet (Residual Network) from Scratch
 
 ## 📝 Overview
 
@@ -10,9 +10,6 @@ Built from the ground up with:
 - Complete ResNet20 architecture with 20 layers
 - Training and evaluation pipeline
 - Command-line customization options
-
-![ResNet Architecture](https://user-images.githubusercontent.com/your-username/path-to-image.png)
-<!-- You could create and add an architecture visualization image here -->
 
 ## 🔧 Requirements
 
@@ -113,10 +110,6 @@ resnet/
 | **Training** | ~91.4% | CIFAR-10 |
 | **Test** | ~88.5% | CIFAR-10 |
 
-### 📈 Training Curves
-
-![Training Curves](https://user-images.githubusercontent.com/your-username/path-to-plot.png)
-<!-- You could add a training/validation accuracy and loss curves plot here -->
 
 ### 💪 Performance Comparison
 
@@ -133,8 +126,6 @@ resnet/
 
 - Add support for ResNet56 and ResNet110
 - Add TensorBoard support for training visualization
-- Implement additional data augmentation techniques
-- Add export options for ONNX format
 
 ## 📚 Citation
 
