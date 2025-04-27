@@ -37,7 +37,7 @@ You can customize the training process and model hyperparameters using command-l
 *   `--epochs`: Number of training epochs (default: 30)
 *   `--batch-size`: Input batch size (default: 32)
 *   `--lr`: Learning rate (default: 0.1)
-    `--momentum`: Momentum for SGD (default: 0.9)
+*   `--momentum`: Momentum for SGD (default: 0.9)
 *   `--weight-decay`: Weight decay (default: 1e-4)
 *   `--data-dir`: Directory for storing dataset (default: './data')
 *   `--save-path`: Path to save the trained model (default: 'resnet20_cifar10.pth')
