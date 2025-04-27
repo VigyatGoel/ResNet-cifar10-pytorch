@@ -1,6 +1,6 @@
 # ResNet (Residual Network) from Scratch
 
-This project implements the ResNet modelarchitecture from the paper  
+This project implements the ResNet model architecture from the paper  
 **[“Deep Residual Learning for Image Recognition”](https://arxiv.org/abs/1512.03385)** using **PyTorch**, and trains it from scratch on the **CIFAR-10** dataset.
 
 Built from the ground up — Basic Blocks, Residual connections, ResNet20 with 20 layers.
